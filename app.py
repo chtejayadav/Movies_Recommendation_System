@@ -1,5 +1,5 @@
 import streamlit as st
-import pickle
+import joblib
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
