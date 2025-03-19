@@ -1,8 +1,8 @@
 import streamlit as st
 import pickle
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.feature_extraction.text import TfidfVectorizer
 import base64
 # ✅ Ensure set_page_config() is the first Streamlit command
 st.set_page_config(page_title="MOVIES RECOMMENDATION SYSTEM", layout="wide")
